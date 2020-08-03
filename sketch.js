@@ -78,7 +78,7 @@ function draw(){
     platform.display();
     //log6.display();
     slingshot.display();
-   // console.log(bird.body.speed);    
+ console.log(bird.body.angle);    
 }
 
 function mouseDragged(){
